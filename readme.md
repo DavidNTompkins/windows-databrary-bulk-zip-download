@@ -1,6 +1,6 @@
 # Databrary Session Asset Downloader
 
-This PowerShell script automates the process of downloading session assets from Databrary for a given set of session IDs.
+This PowerShell script automates the process of downloading session assets from Databrary for a given set of session IDs. It's a pretty simple script, but it seems to work. Claude Sonnet 3.5 wrote the first draft, and I adjusted from there.
 
 ## Requirements
 
@@ -37,8 +37,7 @@ This PowerShell script automates the process of downloading session assets from 
    - Alternatively, you can find the volume number displayed on the volume page itself
 
 3. Open PowerShell:
-   - Press Win + X and select "Windows PowerShell" or "Windows PowerShell (Admin)"
-   - Or search for "PowerShell" in the Start menu and open it
+   - Search for "PowerShell" in the Start menu and open it
 
 4. Navigate to the directory containing the script:
    ```
@@ -66,8 +65,8 @@ This PowerShell script automates the process of downloading session assets from 
 
 If you encounter any issues:
 - Make sure you're logged into Databrary in Chrome before running the script.
-- Check that your CSV file is formatted correctly and contains valid session IDs.
+- Check that your CSV file is formatted correctly and contains valid session IDs (don't change the column header please).
 - Verify that you have the necessary permissions on Databrary for the sessions you're trying to download.
 - Ensure you've entered the correct volume number when running the script.
 
-For any persistent problems, please contact your system administrator or the Databrary support team.
+Feel free to message me on X if you have any issues - I'm just a guy (unaffiliated) but I might be able to help
